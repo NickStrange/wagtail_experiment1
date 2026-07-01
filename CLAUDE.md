@@ -29,6 +29,16 @@ Two initial pages with shared header, footer, and logo:
 
 All content (text + images) managed via Wagtail admin. No hardcoded copy in templates.
 
+## Project Artefacts
+
+All specs, issues, ADRs, glossary, and decisions live as files in this repo. External
+systems (GitHub issues, project boards) are mirrors — not the source of truth.
+
+- `docs/adr/` — Architecture Decision Records
+- `docs/issues/` — build slices (one file per issue)
+- `docs/glossary.md` — canonical term definitions
+- `docs/prd.md` — Product Requirements Document
+
 ## Development Rules
 
 - **TDD** — write the test before the implementation, every time
