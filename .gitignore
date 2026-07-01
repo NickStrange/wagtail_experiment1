@@ -1,0 +1,45 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg-link
+
+# Virtual environment
+venv/
+.venv/
+env/
+.env/
+
+# Django / Wagtail
+*.log
+local_settings.py
+db.sqlite3
+media/
+
+# Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Static collected
+staticfiles/
+static_collected/
